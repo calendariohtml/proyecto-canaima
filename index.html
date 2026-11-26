@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b1b31">
+  <meta name="description" content="Proyecto de recuperación y mantenimiento de dos equipos portátiles en Brisas de las Mercedes.">
+  <title>Proyecto Canaima | Brisas de las Mercedes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="fondo-luces" aria-hidden="true"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <header class="encabezado">
+    <a href="#inicio" class="logo" data-go="inicio" aria-label="Ir al inicio">
+      <span class="logo-icono">PC</span>
+      <span>PROYECTO <b>CANAIMA</b></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav class="menu" aria-label="Navegación principal">
+      <a href="#inicio" data-go="inicio" class="enlace-activo">Inicio</a>
+      <a href="#fase1" data-go="fase1">Fase I</a>
+      <a href="#fase2" data-go="fase2">Fase II</a>
+      <a href="#fase3" data-go="fase3">Fase III</a>
+      <a href="#mapa" data-go="mapa">Mapa</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="portada vista-activa">
+      <div class="portada-contenido reveal">
+        <span class="etiqueta">PROYECTO SOCIO-TECNOLÓGICO · TRAYECTO I</span>
+        <h1>Recuperación y mantenimiento de <span>dos equipos portátiles</span></h1>
+        <p class="portada-descripcion">
+          Comunidad Brisas de las Mercedes, parroquia Mamporal,
+          municipio Buroz, estado Miranda.
+        </p>
+        <button class="boton-principal" data-go="fase1">
+          Explorar el proyecto <span>→</span>
+        </button>
+        <div class="datos-portada">
+          <div><strong>03</strong><small>Fases del proyecto</small></div>
+          <div><strong>02</strong><small>Equipos atendidos</small></div>
+          <div><strong>02</strong><small>Equipos recuperados</small></div>
+        </div>
+      </div>
+      <div class="portada-visual reveal" aria-hidden="true">
+        <div class="aro aro-uno"></div><div class="aro aro-dos"></div>
+        <div class="computadora-visual">
+          <div class="pantalla-visual"><span>PC</span><small>CANAIMA</small></div>
+          <div class="base-visual"></div>
+        </div>
+        <div class="brillo-visual"></div>
+        <span class="particula p1"></span><span class="particula p2"></span><span class="particula p3"></span>
+      </div>
+      <div class="portada-pie">
+        <span>BRISAS DE LAS MERCEDES</span>
+        <span>MAMPORAL · ESTADO MIRANDA · VENEZUELA</span>
+      </div>
+    </section>
+
+    <section id="fase1" class="seccion-fase">
+      <div class="cabecera-fase reveal">
+        <span class="etiqueta">PRIMERA ETAPA DEL PROYECTO</span>
+        <h2>FASE I. <span>Aspectos generales de la comunidad</span></h2>
+        <p>Conociendo el entorno, la historia, las características y las condiciones de vida de Brisas de las Mercedes.</p>
+      </div>
+      <div class="contenido-fase">
+        <article class="texto-fase reveal">
+          <span class="numero-fase">01 / COMUNIDAD</span>
+          <h3>Brisas de las Mercedes</h3>
+          <p>La comunidad Brisas de las Mercedes se encuentra ubicada en la parroquia Mamporal, municipio Buroz, estado Miranda. Sus primeros habitantes comenzaron a establecerse alrededor del año 2009 y, posteriormente, entre 2011 y 2012, se desarrolló la entrega de viviendas con apoyo gubernamental.</p>
+          <p>El sector está conformado por cinco calles: Primavera, La Orquídea, Araguaney, La Rosa y La Esperanza. Su organización comunitaria se apoya en el Consejo Comunal, la Comuna Indio Tomuza y la participación de sus vecinos.</p>
+          <p>Entre sus características se encuentran la presencia de vegetación, actividades agrícolas y cría de animales. También existen necesidades relacionadas con los servicios públicos, las condiciones de las calles y los espacios educativos y sociales.</p>
+          <div class="mini-datos">
+            <div class="dato-card"><strong>51</strong><span>Viviendas</span></div>
+            <div class="dato-card"><strong>220</strong><span>Habitantes</span></div>
+            <div class="dato-card"><strong>65</strong><span>Niños y niñas</span></div>
+          </div>
+        </article>
+        <div class="carrusel reveal" data-carousel="comunidad">
+          <div class="carrusel-etiqueta">GALERÍA COMUNITARIA</div>
+          <div class="carrusel-marco">
+            <img data-carousel-image src="imagenes/calle_principal.jpeg" alt="Calle principal de la comunidad">
+            <button class="flecha anterior" data-carousel-prev aria-label="Fotografía anterior">‹</button>
+            <button class="flecha siguiente" data-carousel-next aria-label="Fotografía siguiente">›</button>
+            <span class="contador" data-carousel-counter>1 / 6</span>
+          </div>
+          <div class="carrusel-informacion">
+            <h3 data-carousel-title>Calle principal</h3>
+            <p data-carousel-description>Vista de una de las vías de acceso de la comunidad.</p>
+            <div class="puntos" data-carousel-dots></div>
+          </div>
+        </div>
+      </div>
+      <div class="nota-fase reveal"><span>✦</span><p>Conocer la comunidad permite comprender las necesidades que dieron origen al proyecto socio-tecnológico.</p></div>
+    </section>
+
+    <section id="fase2" class="seccion-fase">
+      <div class="cabecera-fase reveal">
+        <span class="etiqueta">SEGUNDA ETAPA DEL PROYECTO</span>
+        <h2>FASE II. <span>Diagnóstico situacional</span></h2>
+        <p>Identificación de las condiciones técnicas de los dos equipos Canaima y de los problemas que presentaban.</p>
+      </div>
+      <div class="contenido-fase">
+        <article class="texto-fase reveal">
+          <span class="numero-fase">02 / DIAGNÓSTICO</span>
+          <h3>Evaluación de los equipos</h3>
+          <p>Durante la evaluación se identificaron dos computadoras portátiles Canaima modelo EF10MI2, conocidas como Canaima de letras rojas. Ambos equipos encendían sus indicadores LED, pero no mostraban imagen en pantalla.</p>
+          <p>La revisión permitió detectar daños internos en los cables flex de las pantallas, acumulación de polvo y obstrucciones en los sistemas de ventilación.</p>
+          <p>También se comprobó el funcionamiento de los cargadores, los puertos de alimentación y algunos componentes internos. Las memorias RAM y los discos duros fueron probados en otro equipo y respondieron correctamente.</p>
+          <div class="lista-tecnica">
+            <div><span>01</span>Fallas en los cables flex de pantalla.</div>
+            <div><span>02</span>Acumulación de polvo interno.</div>
+            <div><span>03</span>Problemas en el sistema de ventilación.</div>
+            <div><span>04</span>Baterías deterioradas o ausentes.</div>
+          </div>
+        </article>
+        <div class="carrusel reveal" data-carousel="diagnostico">
+          <div class="carrusel-etiqueta">EVIDENCIA DEL DIAGNÓSTICO</div>
+          <div class="carrusel-marco">
+            <img data-carousel-image src="imagenes/dos_computadoras.jpeg" alt="Dos computadoras Canaima">
+            <button class="flecha anterior" data-carousel-prev aria-label="Fotografía anterior">‹</button>
+            <button class="flecha siguiente" data-carousel-next aria-label="Fotografía siguiente">›</button>
+            <span class="contador" data-carousel-counter>1 / 1</span>
+          </div>
+          <div class="carrusel-informacion">
+            <h3 data-carousel-title>Dos equipos Canaima</h3>
+            <p data-carousel-description>Computadoras portátiles seleccionadas para la revisión técnica.</p>
+            <div class="puntos" data-carousel-dots></div>
+          </div>
+        </div>
+      </div>
+      <div class="nota-fase reveal"><span>✦</span><p>El diagnóstico permitió determinar las fallas y establecer las acciones necesarias para recuperar los equipos.</p></div>
+    </section>
+
+    <section id="fase3" class="seccion-fase">
+      <div class="cabecera-fase reveal">
+        <span class="etiqueta">TERCERA ETAPA DEL PROYECTO</span>
+        <h2>FASE III. <span>Ejecución y resultados</span></h2>
+        <p>Desarrollo del mantenimiento, sustitución de componentes y comprobación del funcionamiento de las computadoras.</p>
+      </div>
+      <div class="contenido-fase">
+        <article class="texto-fase reveal">
+          <span class="numero-fase">03 / EJECUCIÓN</span>
+          <h3>Recuperación de los equipos</h3>
+          <p>La ejecución comenzó con el traslado de los equipos para realizar el mantenimiento. Se efectuó el desmontaje y la limpieza de las carcasas, teclados, puertos, ventiladores y disipadores.</p>
+          <p>También se realizó la limpieza de los contactos de memoria RAM y Wi-Fi, la aplicación de pasta térmica y el reemplazo de los dos cables flex dañados. Mediante un multímetro se verificó una alimentación estable de 19 voltios.</p>
+          <p>Finalmente, ambos equipos lograron mostrar imagen e iniciar correctamente con Windows 7. Se comprobaron el funcionamiento de los discos duros, teclado, touchpad, conexión Wi-Fi y puertos USB.</p>
+          <div class="resultado-final">
+            <span class="resultado-icono">✓</span>
+            <div><strong>Resultado obtenido</strong><p>Los dos equipos fueron recuperados y quedaron operativos conectados a sus cargadores.</p></div>
+          </div>
+        </article>
+        <div class="carrusel reveal" data-carousel="ejecucion">
+          <div class="carrusel-etiqueta">EVIDENCIA DE LA EJECUCIÓN</div>
+          <div class="carrusel-marco">
+            <img data-carousel-image src="imagenes/mantenimiento.jpeg" alt="Mantenimiento de computadora Canaima">
+            <button class="flecha anterior" data-carousel-prev aria-label="Fotografía anterior">‹</button>
+            <button class="flecha siguiente" data-carousel-next aria-label="Fotografía siguiente">›</button>
+            <span class="contador" data-carousel-counter>1 / 2</span>
+          </div>
+          <div class="carrusel-informacion">
+            <h3 data-carousel-title>Mantenimiento técnico</h3>
+            <p data-carousel-description>Limpieza y revisión interna de los equipos.</p>
+            <div class="puntos" data-carousel-dots></div>
+          </div>
+        </div>
+      </div>
+      <div class="nota-fase reveal"><span>✦</span><p>La intervención permitió recuperar la imagen y el arranque de ambos equipos, mejorando su disponibilidad para el uso.</p></div>
+    </section>
+
+    <section id="mapa" class="mapa-seccion">
+      <div class="cabecera-fase reveal">
+        <span class="etiqueta">UBICACIÓN GEOGRÁFICA</span>
+        <h2>Mapa de <span>la comunidad</span></h2>
+        <p>Ubicación compartida de Brisas de las Mercedes.</p>
+      </div>
+      <div class="mapa-contenedor reveal">
+        <iframe src="https://maps.google.com/maps?q=10.336997,-66.104207&z=17&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Ubicación de la comunidad Brisas de las Mercedes"></iframe>
+      </div>
+      <div class="mapa-datos reveal">
+        <span>📍</span>
+        <p><strong>Brisas de las Mercedes</strong><br>Parroquia Mamporal, municipio Buroz, estado Miranda, Venezuela.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <div class="logo-pie">PROYECTO <b>CANAIMA</b></div>
+    <p>Proyecto Socio-Tecnológico · PNF Informática · Trayecto I</p>
+    <span>Brisas de las Mercedes · Estado Miranda · Venezuela</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

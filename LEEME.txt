@@ -1,0 +1,22 @@
+PROYECTO CANAIMA - ARCHIVOS ACTUALIZADOS
+
+Esta carpeta contiene únicamente:
+- index.html
+- style.css
+- script.js
+
+Copia estos tres archivos a tu carpeta Proyecto_Canaima, reemplazando los anteriores.
+Conserva tu carpeta de fotografías llamada "imagenes" tal como está.
+
+Los archivos esperan estas imágenes:
+calle_araguaney.jpeg
+calle_esperanza.jpeg
+calle_la_rosa.png
+calle_orquideas.jpeg
+calle_primavera.jpeg
+calle_principal.jpeg
+computadora_encendida.jpg
+dos_computadoras.jpeg
+mantenimiento.jpeg
+
+El mapa usa las coordenadas compartidas: 10.336997, -66.104207.
